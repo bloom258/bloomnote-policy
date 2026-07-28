@@ -1,0 +1,42 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.bloom.seniorvoiceboard",
+      "sha256_cert_fingerprints": [
+        "C2:6D:F5:6B:59:73:3D:CF:26:38:FB:F8:94:AD:2B:52:AF:AD:12:A5:66:26:20:9D:C7:B1:F8:AC:E2:6A:24:B1"
+      ]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.bloom.medicheck",
+      "sha256_cert_fingerprints": [
+        "5D:E6:14:E0:88:29:2C:77:92:72:96:90:DD:63:40:36:AC:32:30:8A:4F:08:39:BB:3A:CB:13:E2:1E:42:C0:B9"
+      ]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.bloom.bloomcut",
+      "sha256_cert_fingerprints": [
+        "77:8C:15:AC:55:B3:B9:0E:79:F0:B7:AD:9F:9B:78:4E:83:8C:84:65:27:A4:0C:0D:3D:A6:41:6A:6A:88:F2:92"
+      ]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.bloom.simplememo",
+      "sha256_cert_fingerprints": [
+        "B4:3C:76:2F:7D:C1:C1:F9:12:F5:B6:AA:63:3E:F7:18:7A:4E:8D:9A:F1:27:48:50:6C:BC:BC:E0:BD:7D:84:C9"
+      ]
+    }
+  }
+]

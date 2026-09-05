@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Folbi 개인정보처리방침</title>
+    <style>
+        :root {
+            --pastel-bg: #F7F9FC;
+            --pastel-card: #FFFFFF;
+            --pastel-primary: #2563EB;
+            --pastel-secondary: #93C5FD;
+            --pastel-accent: #DC2626;
+            --pastel-text: #1F2937;
+            --pastel-muted: #6B7280;
+            --pastel-border: #E5E7EB;
+        }
+        body {
+            font-family: 'SUIT', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif;
+            line-height: 1.7;
+            padding: 20px;
+            color: var(--pastel-text);
+            background-color: var(--pastel-bg);
+            max-width: 800px;
+            margin: auto;
+            word-break: keep-all;
+        }
+        h1 {
+            color: var(--pastel-primary);
+            text-align: center;
+            border-bottom: 2px solid var(--pastel-secondary);
+            padding-bottom: 15px;
+            margin-bottom: 30px;
+            font-size: 1.6rem;
+        }
+        h2 {
+            color: var(--pastel-primary);
+            background-color: #EFF6FF;
+            margin-top: 35px;
+            padding: 12px 15px;
+            border-radius: 8px;
+            font-size: 1.15rem;
+            border-left: 5px solid var(--pastel-secondary);
+        }
+        ul { padding-left: 25px; margin-top: 10px; }
+        li { margin-bottom: 10px; }
+        .highlight { font-weight: bold; color: var(--pastel-primary); }
+        .security-box {
+            background-color: var(--pastel-card);
+            border: 1px solid var(--pastel-border);
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+        }
+        .link-text {
+            color: var(--pastel-primary);
+            text-decoration: underline;
+            font-weight: bold;
+        }
+        .note {
+            font-size: 0.95rem;
+            color: var(--pastel-muted);
+            margin-top: 8px;
+        }
+        .footer {
+            margin-top: 50px;
+            border-top: 1px solid var(--pastel-border);
+            padding-top: 20px;
+            text-align: right;
+            color: #888;
+            font-size: 0.95rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>Folbi 개인정보처리방침</h1>
+
+    <div class="security-box">
+        <strong style="color: var(--pastel-primary); font-size: 1.1rem;">💡 핵심 요약 및 데이터 보안 선언:</strong><br><br>
+        Folbi는 사용자 개인의 문서를 다루는 앱으로서 데이터 프라이버시를 최우선으로 합니다. 문서 촬영·가져오기·OCR 인식·분류·검색 등 <strong>핵심 기능은 원칙적으로 사용자 기기 내부(On-Device)에서 처리 및 저장</strong>됩니다.<br><br>
+        촬영된 이미지나 문서 텍스트는 <strong>Folbi 운영 서버로 자동 수집되거나 전송되지 않습니다.</strong> 단, 광고 맞춤 설정(AdMob), 프리미엄 구독 결제(Google Play), 사용자가 명시적으로 동의하여 발송하는 오류 신고 등 외부 서비스가 필수적인 영역에 한하여 해당 목적 범위 내에서 데이터가 제한적으로 통신될 수 있습니다.
+    </div>
+
+    <h2>1. 개인정보의 처리 목적</h2>
+    <ul>
+        <li>문서 촬영, 갤러리·PDF 파일 가져오기 및 기기 내 OCR 기반 문서 인식</li>
+        <li>문서 자동 분류(영수증, 명함 등), 검색, 텍스트 작업실, PDF 편집실 등 앱 기능 제공</li>
+        <li>프리미엄 구독 결제 처리 및 무료 사용자를 위한 광고 노출 제어</li>
+        <li>앱 안정성 확보, 사용자 자발적 오류 분석 제공 및 고객 지원</li>
+        <li>사용자가 직접 생성 및 암호화하여 보관하는 백업(.fbk) 기능 제공</li>
+    </ul>
+
+    <h2>2. 처리하는 데이터 및 수집 방법</h2>
+    <ul>
+        <li>
+            <strong class="highlight">문서·이미지 데이터 (기기 내 로컬 저장):</strong><br>
+            사용자가 촬영하거나 갤러리/파일에서 가져온 문서 이미지, OCR로 추출된 텍스트, 분류·태그·즐겨찾기·폴더 정보 등은 앱 기능 제공을 위해 <strong>오직 사용자 기기 내부 저장소에만 저장</strong>됩니다. Folbi는 해당 데이터를 서버로 전송하여 보관하지 않습니다.
+        </li>
+        <li>
+            <strong>권한 기반 접근 (카메라/저장소):</strong><br>
+            카메라 및 사진·미디어 파일 접근 권한은 사용자가 문서를 추가하고 편집하기 위한 목적에 한해 사용되며, 시스템의 권한 허용 범위 내에서만 작동합니다.
+        </li>
+        <li>
+            <strong>결제 및 구독 데이터 (네트워크 사용):</strong><br>
+            프리미엄 구독 처리는 Google Play 결제 시스템을 통해 안전하게 이루어집니다. 결제 수단 세부 정보(신용카드 번호 등)는 Folbi가 수집하지 않으며 Google Play 정책을 따릅니다. 결제 검증을 위한 영수증 정보만 기기와 구글 서버 간 통신을 거칩니다.
+        </li>
+        <li>
+            <strong>광고 및 기기 식별자 데이터 (네트워크 사용):</strong><br>
+            안정적인 무료 서비스 제공을 위해 Google AdMob 광고 플랫폼이 사용됩니다. 이 과정에서 광고 ID(AD_ID), IP 주소, 기기 정보가 비식별 상태로 수집되어 타겟팅 광고 및 광고 품질 개선에 사용될 수 있습니다. (기기 설정에서 광고 ID 수집 거부 가능)
+        </li>
+        <li>
+            <strong>오류·진단 데이터 (사용자 자발적 전송 시):</strong><br>
+            앱 오류 발생 시 기기 내부에 로그가 임시 기록되며, <strong>사용자가 직접 고객센터 이메일로 전송을 누르는 경우에만</strong> 기기 정보 및 오류 로그가 전달됩니다. 이때 문서 원본 이미지는 제외됩니다.
+        </li>
+        <li>
+            <strong>안드로이드 자동 백업 (네트워크 사용):</strong><br>
+            사용자의 기기 OS 설정(Google One 백업 등)에 따라, 앱 복원을 위해 기기 내 앱 데이터가 사용자의 개인 구글 클라우드 계정에 자동으로 백업될 수 있습니다.
+        </li>
+    </ul>
+
+    <h2>3. 제3자 서비스 이용 및 데이터 공유</h2>
+    Folbi는 서비스 제공을 위해 아래와 같은 외부 제3자 서비스를 활용합니다.
+    <ul>
+        <li>
+            <strong>Google LLC (Google AdMob, Google Play Billing)</strong><br>
+            앱 내 광고 송출 및 인앱 구독 결제 처리를 위해 사용됩니다. 기기 식별자 및 구매 이력 데이터가 처리됩니다.<br>
+            <a href="https://policies.google.com/privacy" class="link-text" target="_blank">Google 개인정보처리방침 확인하기</a>
+        </li>
+        <li>
+            <strong>온디바이스 ML/OCR 라이브러리</strong><br>
+            빠르고 안전한 문서 처리를 위해 기기 내부에서 작동하는 기계학습(Machine Learning) 라이브러리를 사용합니다. 이는 오프라인으로 작동하며 문서를 외부로 전송하지 않습니다.
+        </li>
+    </ul>
+
+    <h2>4. 데이터 보관 기간 및 파기</h2>
+    <ul>
+        <li>
+            <strong>기기 내 저장 데이터:</strong>
+            사용자가 앱 내에서 문서를 직접 삭제하거나, 스마트폰에서 <strong>Folbi 앱을 완전히 삭제(Uninstall)할 경우 해당 데이터는 기기에서 영구적으로 즉시 파기</strong>됩니다.
+        </li>
+        <li>
+            <strong>수동 백업 파일(.fbk):</strong>
+            사용자가 직접 생성한 백업 파일은 기기 다운로드 폴더 등 지정한 위치에 유지되며, 사용자가 파일 관리자 등을 통해 직접 삭제해야 합니다.
+        </li>
+        <li>
+            <strong>결제 및 광고 데이터:</strong>
+            Google 등 제3자 서비스 제공자의 정책 및 관련 법령에 명시된 기간 동안 보관 후 파기됩니다.
+        </li>
+    </ul>
+
+    <h2>5. 이용자의 권리 및 행사 방법</h2>
+    <ul>
+        <li>사용자는 앱 내 기능을 통해 언제든지 자신의 문서 데이터를 열람, 수정, 삭제할 수 있습니다.</li>
+        <li>기기 설정(설정 > 애플리케이션 > Folbi > 권한)에서 언제든지 카메라 및 파일 접근 권한을 철회할 수 있습니다.</li>
+        <li>Google Play 스토어의 구독 메뉴를 통해 언제든지 프리미엄 구독을 해지할 수 있습니다.</li>
+    </ul>
+    <p class="note">
+        ※ Folbi는 사용자 식별을 위한 별도의 회원가입(계정 생성)을 요구하지 않습니다. 따라서 앱 삭제 시 기기 내 모든 데이터가 함께 지워지며 복구가 불가능하므로, 기기 변경이나 앱 재설치 전 반드시 '설정 > 백업 및 복구' 기능을 이용해 주시기 바랍니다.
+    </p>
+
+    <h2>6. 아동의 개인정보 보호</h2>
+    Folbi는 만 14세 미만 아동을 대상으로 하는 서비스가 아니며, 아동의 개인정보를 고의로 수집하지 않습니다.
+
+    <h2>7. 문의 및 데이터 삭제 요청</h2>
+    개인정보 처리 방침에 대한 문의, 혹은 오류 신고 관련하여 전송된 이메일 기록 등의 삭제를 원하시는 경우 아래 채널로 문의해 주시기 바랍니다.
+    <ul>
+        <li>보호책임자: 김진경</li>
+        <li>이메일 문의: <a href="mailto:bloomsoft486@gmail.com" class="link-text">bloomsoft486@gmail.com</a></li>
+        <li>
+            <strong>데이터 처리 및 삭제 문의 폼:</strong><br>
+            <a href="#" class="link-text" target="_blank">Folbi 고객 지원 및 데이터 삭제 요청 접수처</a> <!-- TODO: 여기에 구글 폼 URL 삽입 -->
+        </li>
+    </ul>
+
+    <h2>8. 개인정보처리방침의 변경</h2>
+    본 개인정보처리방침은 법령, 정책 또는 앱 기능 변경에 따라 수정될 수 있으며, 내용의 중대한 변경이 있을 경우 앱 내 공지 또는 업데이트 시 본 페이지를 통해 사전 안내해 드립니다.
+
+    <div class="footer">
+        시행일: 2026년 9월 5일<br>
+        최종 개정일: 2026년 9월 5일
+    </div>
+</body>
+</html>
